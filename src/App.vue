@@ -2,18 +2,21 @@
   <div id="app">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <ClassComponentExample/>
+    <ComplexClassComponentExample/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue';
 import ClassComponentExample from './components/ClassComponentExample.vue';
+import ComplexClassComponentExample from './components/ComplexClassComponentExample.vue';
 
 export default {
   name: 'app',
   components: {
     HelloWorld,
-    ClassComponentExample
+    ClassComponentExample,
+    ComplexClassComponentExample
   },
 };
 </script>
